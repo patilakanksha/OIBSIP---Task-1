@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    /* main theme color */
+    --first-color:#0e2431;
+    --second-color:#6a59d1;
+    --third-color:#777;
+
+    /* Hover color */
+    --hover-color:#614fd0;
+
+    /*Background color*/
+    --body-bg-color:#fefefe;
+    --card-bg-color:#fff;
+    --modal-bg-color:#fff;
+    --bg-transparent-color: rgba(0 0 0 0.1);
+    --transparent-color-01: rgba(0, 0, 0, 0.1);
+    --transparent-color-02: rgba(106, 89, 209, 0.1);
+    --line-color: #d7d7d7;
+
+    /* color filter */
+    --color-filter: invert(1);
+
+    /* Box shadow */
+    --box-shadow: 0px 0px 20px rgb(0 0 0/10%);
+
+    /* Font-Size */
+    --small-font-size: 0.9em;
+    --normal-font-size: 1em;
+
+    /* Scroll-bar-color */
+    --scroll-bar-color: #c5cadf;
+    --scroll-thumb-color: #70768a;
+    --scroll-thumb-hover-color: #454f6b;
+}
+
+.header li{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+  .banner{
+    background-image: url("../assets/home1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+    padding-top: 40%;
+    padding-left: 3%;
+    
+}
+
+
+header.sticky .nav-bar{
+    height: calc(2.5rem +1rem);
+}
+.nav-items a:hover{
+    background: var(--second-color);
+}
+.explore a:hover{
+    color: white
+}
+.explore a {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  text-decoration: none;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(9, 9, 71);
+    color:aliceblue;
+}
